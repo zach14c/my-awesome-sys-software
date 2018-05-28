@@ -11,5 +11,9 @@
 
 # Linux
 - renice: 改變程式執行的優先權
+- rdesktop: 用命令行連接 Windows, 很多參數可以調配
+- IO測速: dd, hdparm, fio
+- iftop: 一目了然的流量監控程式
+
 
 # MacOS
