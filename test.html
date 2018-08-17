@@ -1,0 +1,21 @@
+<html>
+<head>
+<meta charset="utf-8" />
+<title>測試表單</title>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+<br/><br/>
+<input type="button" value="送出" id="tButton"></button><br/><br/>
+<input type="text"  size="60"  id="msg"></text>
+
+<script>
+$( "#tButton" ).click(function() {
+ var d = new Date();
+  $("#msg").val(d);
+  alert("取得999件");
+});
+</script>
+
+</body>
+</html>
